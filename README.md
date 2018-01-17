@@ -1,6 +1,11 @@
 len
 ===
 
+[![Build Status](https://travis-ci.org/sospedra/len.svg?branch=master)](https://travis-ci.org/sospedra/len)
+[![David](https://img.shields.io/david/sospedra/len.svg)]()
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+
 Safely access arrays' length property
 
 ### Usage
