@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "lodash.defaultto": "^4.14.0",
+    "lodash.get": "^4.4.2",
+    "lodash.isarray": "^4.0.0"
+  }
+}
