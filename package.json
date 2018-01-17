@@ -7,7 +7,7 @@
   "devDependencies": {
     "ava": "^0.24.0"
   },
-  "name": "len",
+  "name": "@sospedra/len",
   "description": "Safely access arrays' length property",
   "version": "1.0.0",
   "main": "src/index.js",
