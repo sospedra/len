@@ -9,4 +9,3 @@ module.exports = function len (target) {
     ? defaultTo(get(target, 'length'), DEFAULT_LENGTH)
     : DEFAULT_LENGTH
 }
-

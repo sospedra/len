@@ -9,4 +9,3 @@ test('len return array length', (t) => {
   t.is(len('string'), 0, 'as 0 when is string')
   t.is(len(undefined), 0, 'as 0 when is undefined')
 })
-

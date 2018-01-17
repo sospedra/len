@@ -5,7 +5,8 @@
     "lodash.isarray": "^4.0.0"
   },
   "devDependencies": {
-    "ava": "^0.24.0"
+    "ava": "^0.24.0",
+    "standard": "^10.0.3"
   },
   "name": "@sospedra/len",
   "description": "Safely access arrays' length property",
@@ -18,7 +19,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "ava test/*.js"
+    "test:unit": "ava test/*.js",
+    "test:lint": "standard",
+    "test": "npm run test:lint && npm run test:unit"
   },
   "repository": {
     "type": "git",
