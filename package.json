@@ -3,5 +3,37 @@
     "lodash.defaultto": "^4.14.0",
     "lodash.get": "^4.4.2",
     "lodash.isarray": "^4.0.0"
-  }
+  },
+  "devDependencies": {
+    "ava": "^0.24.0"
+  },
+  "name": "len",
+  "description": "Safely access arrays' length property",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sospedra/len.git"
+  },
+  "keywords": [
+    "length",
+    "array",
+    "micro",
+    "util"
+  ],
+  "author": "sospedra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sospedra/len/issues"
+  },
+  "homepage": "https://github.com/sospedra/len#readme"
 }
