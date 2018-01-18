@@ -18,9 +18,9 @@ yarn add @sospedra/len
 
 ### Usage
 
-`len` will return the array target or `0` 👀
+`len` will return the array target length or `0` 👀
 
-Meaning that **non-array targets always returns `0`**.
+Meaning that **non-array targets always return `0`**.
 
 ```js
 import len from '@sospedra/len'
@@ -44,7 +44,7 @@ Also, by returning the length only of arrays **we ensure that it's iterable**.
 Meaning that you can safely check for `.map`, `.reduce`, *et altri*
 
 ```js
-if (!len(array)) array.map(myCallback)
+if (len(array)) array.map(myCallback)
 ```
 
 Wonderful 😍
